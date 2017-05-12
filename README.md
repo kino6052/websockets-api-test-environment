@@ -13,6 +13,7 @@ Ways to Interfere:
 ## Networking
 
 1. Firewall Interference (Change Configurations While Session is Open)
+    
     a. No Firewall
     b. Firewall not Allowing Websockets
     c. Firewall Allowing Websockets with Different Parameters
