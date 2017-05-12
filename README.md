@@ -7,15 +7,15 @@ Ways to Interfere:
 1. Disconnect Cable
 2. Stop and Restart Server
 3. Programatically Interfere
-  a. Close Websockets
-  b. Reestablish Connection
+  * Close Websockets
+  * Reestablish Connection
 
 ## Networking
 
 1. Firewall Interference (Change Configurations While Session is Open) 
-  a. No Firewall
-  b. Firewall not Allowing Websockets
-  c. Firewall Allowing Websockets with Different Parameters
+  * No Firewall
+  * Firewall not Allowing Websockets
+  * Firewall Allowing Websockets with Different Parameters
 
 ## Misc
 Gather as much Information about Issues with Websockets as You can:
