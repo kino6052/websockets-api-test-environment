@@ -10,6 +10,11 @@ Ways to Interfere:
   * Close Websockets
   * Reestablish Connection
 
+## Browser
+1. IE
+2. Chrome
+3. Firefox
+
 ## Networking
 
 1. Firewall Interference (Change Configurations While Session is Open) 
