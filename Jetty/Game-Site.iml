@@ -12,6 +12,8 @@
         <sourceRoots>
           <root url="file://$MODULE_DIR$/source/production/java" />
           <root url="file://$MODULE_DIR$/source/production/resources" />
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
       </configuration>
     </facet>
@@ -23,6 +25,9 @@
       <sourceFolder url="file://$MODULE_DIR$/source/production/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/source/test/java/unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/source/production/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java/unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />

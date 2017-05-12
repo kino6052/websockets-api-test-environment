@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure_9_3.dtd">
+
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+  <Set name="contextPath">/</Set>
+  <Set name="war">game-site001.war</Set>
+
+  <Call name="setAttribute">
+    <Arg>org.eclipse.jetty.webapp.basetempdir</Arg>
+    <Arg>C:\Users\kiril\ISONAS\websockets-api-test-environment\Jetty\target\game-site001</Arg>
+  </Call>
+</Configure>

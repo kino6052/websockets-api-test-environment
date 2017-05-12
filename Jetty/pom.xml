@@ -7,7 +7,7 @@
 
     <groupId>com.wrox</groupId>
     <artifactId>game-site</artifactId>
-    <version>1.0.0.SNAPSHOT</version>
+    <version>001</version>
     <packaging>war</packaging>
 
     <properties>
@@ -106,25 +106,36 @@
             <version>${jackson.version}</version>
             <scope>compile</scope>
         </dependency>
+
+
     </dependencies>
 
     <build>
-        <finalName>game-site-1.0.0.SNAPSHOT</finalName>
-        <sourceDirectory>source/production/java</sourceDirectory>
+        <sourceDirectory>src/main/java</sourceDirectory>
         <resources>
             <resource>
-                <directory>source/production/resources</directory>
+                <directory>src/main/resources</directory>
             </resource>
         </resources>
 
-        <testSourceDirectory>source/test/java/unit</testSourceDirectory>
+        <testSourceDirectory>src/test/java/unit</testSourceDirectory>
         <testResources>
             <testResource>
-                <directory>source/test/java/resources</directory>
+                <directory>src/test/java/resources</directory>
             </testResource>
         </testResources>
 
         <plugins>
+            <plugin>
+              <groupId>org.eclipse.jetty</groupId>
+              <artifactId>jetty-maven-plugin</artifactId>
+              <version>9.3.0.M2</version>
+              <configuration>
+                <jettyXml>${project.basedir}/jetty-cfg/jetty.xml</jettyXml>
+                <webAppSourceDirectory>${project.basedir}/target/game-site-001</webAppSourceDirectory>
+                <war>${project.basedir}/target/game-site-1.0.0.SNAPSHOT</war>
+              </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
