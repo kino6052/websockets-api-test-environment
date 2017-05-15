@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Game Site :: Tic Tac Toe</title>
+        <title>Web Socket Test</title>
         <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     </head>
     <body>
-        <h2>Tic Tac Toe</h2>
+        <h2>Web Socket Test</h2>
         <a href="javascript:void 0;" onclick="startGame();">Start a Game</a><br />
         <br />
         <c:choose>

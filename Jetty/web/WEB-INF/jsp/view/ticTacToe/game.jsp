@@ -33,9 +33,9 @@
 
                 var server;
                 try {
-                    server = new WebSocket('ws://' + window.location.host +
-                            '<c:url value="/ticTacToe/${gameId}/${username}">
-                                <c:param name="action" value="${action}" />
+                    server = new WebSocket('ws://' + window.location.host       +
+                            '<c:url value="/ticTacToe/${gameId}/${username}">   +
+                                <c:param name="action" value="${action}" />     +
                             </c:url>');
                 } catch(error) {
                     console.warn(error);

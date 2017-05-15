@@ -134,6 +134,10 @@
                 <jettyXml>${project.basedir}/jetty-cfg/jetty.xml</jettyXml>
                 <webAppSourceDirectory>${project.basedir}/target/game-site-001</webAppSourceDirectory>
                 <war>${project.basedir}/target/game-site-1.0.0.SNAPSHOT</war>
+                <httpConnector>
+                  <!--host>localhost</host-->
+                  <port>9999</port>
+                </httpConnector>
               </configuration>
             </plugin>
             <plugin>
